@@ -1,0 +1,50 @@
+[
+  {
+    "id":"1",
+    "nama":"Ony",
+    "alamat":"Jl. Sultan Agung",
+    "jeniskelamin":"Laki - Laki",
+    "posisi":"Manajer",
+    "umur":"43"
+  },
+  {
+    "id":"2",
+    "nama":"Darrell",
+    "alamat":"Jl. Semeru",
+    "jeniskelamin":"Laki - Laki",
+    "posisi":"Staff",
+    "umur":"40"
+  },
+  {
+    "id":"3",
+    "nama":"Jumaa",
+    "alamat":"Jl. Pahlawan",
+    "jeniskelamin":"Perempuan",
+    "posisi":"Asisten",
+    "umur":"38"
+  },
+  {
+    "id":"1",
+    "nama":"Ony",
+    "alamat":"Jl. Sultan Agung",
+    "jeniskelamin":"Laki - Laki",
+    "posisi":"Manajer",
+    "umur":"43"
+  },
+  {
+    "id":"2",
+    "nama":"Darrell",
+    "alamat":"Jl. Semeru",
+    "jeniskelamin":"Laki - Laki",
+    "posisi":"Staff",
+    "umur":"40"
+  },
+  {
+    "id":"3",
+    "nama":"Jumaa",
+    "alamat":"Jl. Pahlawan",
+    "jeniskelamin":"Perempuan",
+    "posisi":"Asisten",
+    "umur":"38"
+  }
+]
