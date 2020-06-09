@@ -14,15 +14,15 @@
 <body>
   <div class="container">
     <h1>Data JSON ke Tabel HTML menggunakan metode getjSON Ajax Jquery</h1>
-    <table id="employee_table" class="table table-sm table-hover table-striped">
-      <tr>
-        <th>Nama</th>
-        <th>Alamat</th>
-        <th>Jenis Kelamin</th>
-        <th>Posisi</th>
-        <th>Umur</th>
-      </tr>
-    </table>
+  <table id="employee_table" class="table table-sm table-hover table-striped">
+    <tr>
+      <th>Nama</th>
+      <th>Alamat</th>
+      <th>Jenis Kelamin</th>
+      <th>Posisi</th>
+      <th>Umur</th>
+    </tr>
+  </table>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -36,18 +36,18 @@
     crossorigin="anonymous"></script>
   <script>
     $(document).ready(function () {
-      $.getJSON("employee.json", function (data) {
-        var employee_data = '';
+      $.getJSON("datalist.json", function (data) {
+        var datalist = '';
         $.each(data, function (key, value) {
-          employee_data += '<tr>';
-          employee_data += '<td>' + value.name + '</td>';
-          employee_data += '<td>' + value.address + '</td>';
-          employee_data += '<td>' + value.gender + '</td>';
-          employee_data += '<td>' + value.designation + '</td>';
-          employee_data += '<td>' + value.age + '</td>';
-          employee_data += '<tr>';
+          datalist += '<tr>';
+          datalist += '<td>' + value.nama + '</td>';
+          datalist += '<td>' + value.alamat + '</td>';
+          datalist += '<td>' + value.jeniskelamin + '</td>';
+          datalist += '<td>' + value.posisi + '</td>';
+          datalist += '<td>' + value.umur + '</td>';
+          datalist += '<tr>';
         });
-        $('#employee_table').append(employee_data);
+        $('#employee_table').append(datalist);
       });
     });
   </script>
