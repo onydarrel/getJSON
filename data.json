@@ -1,0 +1,50 @@
+[
+  {
+    "id":"1",
+    "name":"Ony",
+    "address":"Jl. Sultan Agung",
+    "gender":"Laki - Laki",
+    "designation":"Manager",
+    "age":"43"
+  },
+  {
+    "id":"2",
+    "name":"Darrell",
+    "address":"Jl. Semeru",
+    "gender":"Laki - Laki",
+    "designation":"Staff",
+    "age":"40"
+  },
+  {
+    "id":"3",
+    "name":"Jumaa",
+    "address":"Jl. Pahlawan",
+    "gender":"Perempuan",
+    "designation":"Asisten",
+    "age":"38"
+  },
+  {
+    "id":"1",
+    "name":"Ony",
+    "address":"Jl. Sultan Agung",
+    "gender":"Laki - Laki",
+    "designation":"Manager",
+    "age":"43"
+  },
+  {
+    "id":"2",
+    "name":"Darrell",
+    "address":"Jl. Semeru",
+    "gender":"Laki - Laki",
+    "designation":"Staff",
+    "age":"40"
+  },
+  {
+    "id":"3",
+    "name":"Jumaa",
+    "address":"Jl. Pahlawan",
+    "gender":"Perempuan",
+    "designation":"Asisten",
+    "age":"38"
+  }
+]
